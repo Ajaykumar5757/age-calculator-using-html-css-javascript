@@ -1,0 +1,35 @@
+.section{
+    max-width: 400px;
+    margin: 150px auto;
+    padding:30px;
+    text-align: center;
+    background-color: rgb(103, 214, 224);
+    color:rgb(10, 50, 54);
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgb(14, 110, 119);
+}
+
+button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 155px;
+    padding: 5px 15px;
+    background-color: rgb(192, 240, 250);
+    color:black;
+    border-radius: 10px;
+    border:none;
+}
+
+input{
+    width:40%;
+    height:25px;
+}
+
+h1{
+   font-size: 40px; 
+}
+
+button:hover{
+    color:white;
+    background-color: rgb(12, 89, 96);
+}
