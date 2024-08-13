@@ -11,11 +11,11 @@ function calculateage(){
     if(dob==""||dob==null){
         alert("please input field should not be empty");
     }
-    else if(dateofbirth>today){
-        alert("Please enter the date before "+today.getDate()+"/"+today.getMonth()+"/"+today.getFullYear());
+    else if(dateofbirth.getTime()>today.getTime()){
+        alert("Please enter the date before "+today.getDate()+"/"+(today.getMonth()+1)+"/"+today.getFullYear());
     }
     else{
-        if(month<0){
+        if(month<0||(month === 0 && date < 0)){
             year--;
             month=month+12;
         }
